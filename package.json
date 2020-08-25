@@ -7,22 +7,23 @@
     "url": "https://github.com/makeaixstudio/aixstudio.git"
   },
   "dependencies": {
-    "@theia/callhierarchy": "next",
-    "@theia/file-search": "next",
-    "@theia/git": "next",
-    "@theia/markers": "next",
-    "@theia/messages": "next",
-    "@theia/mini-browser": "next",
-    "@theia/navigator": "next",
-    "@theia/outline-view": "next",
-    "@theia/plugin-ext-vscode": "next",
-    "@theia/preferences": "next",
-    "@theia/preview": "next",
-    "@theia/search-in-workspace": "next",
-    "@theia/terminal": "next"
+    "@theia/core": "latest",
+    "@theia/editor": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/file-search": "latest",
+    "@theia/git": "latest",
+    "@theia/languages": "latest",
+    "@theia/markers": "latest",
+    "@theia/monaco": "latest",
+    "@theia/navigator": "latest",
+    "@theia/preferences": "latest",
+    "@theia/process": "latest",
+    "@theia/plugin-ext-vscode": "latest",
+    "@theia/terminal": "latest",
+    "@theia/workspace": "latest"
   },
   "devDependencies": {
-    "@theia/cli": "next"
+    "@theia/cli": "latest"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn build && yarn run download:plugins",
