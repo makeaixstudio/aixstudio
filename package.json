@@ -18,6 +18,8 @@
     "@theia/navigator": "latest",
     "@theia/preferences": "latest",
     "@theia/process": "latest",
+    "@theia/plugin": "latest",
+    "@theia/plugin-ext": "latest",
     "@theia/plugin-ext-vscode": "latest",
     "@theia/terminal": "latest",
     "@theia/workspace": "latest"
